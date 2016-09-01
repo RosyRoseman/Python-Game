@@ -1,1 +1,1 @@
-N, S, NE, SE, NW, SW = "north", "south", "northeast", "southeast", "northwest", "southwest"
+reverseDirection = {"northeast": "southwest", "southwest": "northeast", "northwest": "southeast", "southeast": "northwest", "north": "south", "south": "north"}
