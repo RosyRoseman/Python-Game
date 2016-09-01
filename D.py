@@ -1,4 +1,6 @@
 import C
+import P
+import syst
 import random as R
 class Dungeon:
 
@@ -20,4 +22,4 @@ class Dungeon:
         elif oldDirection == "south":
             return C.N
         else:
-            return "ERROR"
+            return "Somehow, You have Fucked Up. Royally."
